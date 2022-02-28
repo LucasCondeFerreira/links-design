@@ -9,26 +9,32 @@ const DivButton = styled.a`
     height: 70px;
     margin: 25px auto;
 
-    border: 1px rgba(250,200,236,1) solid;
-    border-radius: 8px;
-    box-shadow: 0px 10px 14px -7px rgba(212,110,186,1);
-    text-shadow: 0px 1px 0px rgba(248,175,225,1);
+    border: 1px #212832 solid;
+    border-radius: 50px;
+    box-shadow: 0px 10px 14px -7px #29374b;
+    text-shadow: 0px 1px 0px #4e6079;
 
-    background: linear-gradient(rgba(250,200,236,1), rgba(248,183,229,1));
+    background: #212832;
 
     :hover{
-        background:rgba(250,200,236,1);
+        background:#212832;
     }
 
-    > p{
-        margin: 1.7rem 0.5rem 0.5rem 2.5rem;
+    > h4{
+        width: 100%;
+        margin-top: 1.4rem;
+        
+        font-size: 1.3em;
+        text-align: center;
+        align-items: center;
+        color: #fff;
     }
 `
 
 export const Button = (props) => {
     return (
         <DivButton href={props.href} alt={props.alt}>
-            <p>{props.text}</p>
+            <h4>{props.text}</h4>
         </DivButton>
     )
 }

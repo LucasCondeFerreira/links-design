@@ -10,8 +10,6 @@ const DivFooter = styled.div`
 
     position: relative;
     max-width: 1600px;
-    min-height: 400px;
-    background-color: orange;
     
     margin: 0 auto;
 
@@ -19,11 +17,21 @@ const DivFooter = styled.div`
     flex-wrap: wrap;
     
 `
+const H2 = styled.h2`
+    font-size: 1.5em;
+    color: #EB5942;
+
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+
+    margin: 40px auto;
+`
 
 export const Footer = () => {
     return (
         <DivFooter>
-            <p>Um texto qualuqer</p>
+            <H2>MAKE YOUR DREAMS COME TRUE</H2>
         </DivFooter>
     )
 }

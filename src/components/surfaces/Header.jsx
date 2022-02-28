@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import Logo from '../../assets/images/logo-gatinho.JPG'
+import Logo from '../../assets/images/logo-gabi.png'
 
 const DivHeader = styled.div`
 
-    background-color: #FAC8E0;
-    border-bottom: 3px solid #000;
+    background-color: #EB5942;
+    border-bottom: 10px solid #000;
 
 
     -webkit-box-flex: 0;
@@ -13,24 +13,25 @@ const DivHeader = styled.div`
     flex: 0 0 100%;
 
     position: relative;
-    min-height: 400px;
+    min-height: 245px;
     
     margin: 0 auto;
 
+    z-index: 1;
     display: flex;
     flex-wrap: wrap;
 `
 const Img = styled.img`
-    width: 180px;
-    max-width: 180px;
-    height: 180px;
-    max-height: 180px;
+    width: 400px;
+    height: 400px;
+
+    border-radius: 100%;
 
     position: absolute;
 
     bottom: 0;
     left: 50%;
-    transform: translate(-90px, 90px);
+    transform: translate(-50%, 50%);
 `
 
 export const Header = () => {
