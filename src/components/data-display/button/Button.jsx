@@ -16,6 +16,12 @@ const DivButton = styled.a`
 
     background: #212832;
 
+    @media (max-width: 560px){
+    width: 240px;
+    height: 65px;
+        
+    }
+
     :hover{
         background:#212832;
     }

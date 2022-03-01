@@ -14,8 +14,12 @@ const DivContent = styled.div`
     max-width: 1600px;
     min-height: 400px;
     
-    padding-top: 200px;
+    padding-top: 180px;
     margin: 0 auto;
+
+    @media (max-width: 560px){
+        padding-top: 150px;
+    }
 `
 
 export const Content = () => {

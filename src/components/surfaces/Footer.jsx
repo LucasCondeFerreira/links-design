@@ -26,6 +26,11 @@ const H2 = styled.h2`
     text-align: center;
 
     margin: 40px auto;
+
+
+    @media (max-width: 560px){
+        font-size: 1.3em;
+    }
 `
 
 export const Footer = () => {

@@ -14,6 +14,11 @@ const DivHeader = styled.div`
 
     position: relative;
     min-height: 245px;
+
+
+    @media (max-width: 560px){
+        min-height: 180px;
+    }
     
     margin: 0 auto;
 
@@ -24,6 +29,12 @@ const DivHeader = styled.div`
 const Img = styled.img`
     width: 400px;
     height: 400px;
+
+    @media (max-width: 560px){
+    width: 260px;
+    height: 260px;
+        
+    }
 
     border-radius: 100%;
 
